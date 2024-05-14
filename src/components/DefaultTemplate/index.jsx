@@ -1,9 +1,9 @@
+import { DefaultStyled } from "./style"
+
 export const DefaultTemplate = ({children}) => {
     return (
-        <>
-            <main className="main__container">
-                {children}
-            </main>
-        </>
+        <DefaultStyled>
+            {children}
+        </DefaultStyled>
     )
 }

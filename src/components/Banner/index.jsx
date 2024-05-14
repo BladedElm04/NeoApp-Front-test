@@ -1,7 +1,12 @@
+import { StyledBanner } from "./style";
+import Carousel from "react-bootstrap/Carousel";
+
+
 export const Banner = () => {
     return (
-        <section className="banner__section">
-
-        </section>
+        <StyledBanner>
+            oi
+        </StyledBanner>
+        
     )
 }
